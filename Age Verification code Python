@@ -1,0 +1,13 @@
+name = input("Please enter your name :")
+print("Hi" " "+ name)
+age = input("Please enter your age :")
+age = int(age)
+
+if age == 18 :
+    print("Congrats Your eligible to voting")
+elif age >= 18 :
+    print("You are already 18 plus")
+elif age <= 18 :
+        print("Sorry you are not eligible for voting")
+else : 
+    print("invalid number")
